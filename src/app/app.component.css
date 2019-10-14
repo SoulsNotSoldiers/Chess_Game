@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+  
+body {
+    height: 640px;
+    width: 640px;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+app-result-display {
+    color: blue;
+    border: 3px solid lime;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 2;
+    height: 25%;
+    width: 25%;
+}
+
+.white-square, .black-square {
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    text-align: center
+}
+
+.white-square {
+    border: .5px solid #f9f9f9;
+    background-color: #f9f9f9
+}
+
+.black-square {
+    border: .5px solid #555555;
+    background-color: #555555;  
+}
+
+.rotate {
+    transform: rotate(180deg)
+}
+
+.visible {
+    display: block;
+    background-color: #555555;
+    color: white
+}
+
+.not-visible {
+    display: none;
+    background-color: #555555;
+    color: white
+}
